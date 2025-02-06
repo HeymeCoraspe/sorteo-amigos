@@ -1,0 +1,41 @@
+<!----->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Chewy&family=Rubik+Puddles&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main>
+        <header class="header-banner"> 
+            <h1 class="header=title"> Sorteo del Amigo Secreto </h1>
+        </header>
+
+        <section class="input-container">
+            <figure class="img-container">
+                <img src="assets/gatoregalo.jpg" alt="gato en caja de regalo">
+            </figure>
+
+
+            <div class="input-section-wrapped">
+                <h2 class="input-tile"> Escribe el nombre de tus amigos</h2>
+                <input type="text" class="input-name" placeholder="Escribe un nombre">
+                <button class="input-bt-add" role="button">Agregar</button> <!---revisar evento onclick-->
+                <div class="btn-draw-container">
+                    <button class="btn-draw">Sortear &#x1f3b2</button><!---revisar evento onclick-->
+                </div>
+            </div>  
+
+            <ul class="name-list" role="list"></ul> <!---aquí se agregan los nombres-->
+            <ul class="result-list" role="list"></ul> <!---aquí va el resultado-->
+        </section>
+    </main>
+
+    <script src="app.js" defer></script>
+</body>
+</html>

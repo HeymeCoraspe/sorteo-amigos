@@ -1,0 +1,50 @@
+* {
+    box-sizing: border-box;
+    background-image: linear-gradient(to bottom, #5dadea, #99bef0, #c4d1f5, #e5e7fa, #ffffff);
+    background-attachment: fixed;
+}
+
+header{
+    text-align: center;
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+}
+
+.input-container{
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.img-container{
+    width: 40%;
+}
+img{
+    align-items: center;
+    display: inline;
+}
+
+.input-section-wrapped{
+    width: 60%;
+    align-content: center;
+    text-align: center;
+}
+h1{
+    font-family: "Rubik Puddles", serif;
+    font-size: 8vh;
+    color: white;
+}
+
+h2{
+    margin-bottom: 5vh;
+    font-family: "Chewy", serif;
+    font-weight: 200;
+    font-size: 4vh;
+}
+
+.btn-draw-container{
+    margin-top: 3vh;
+}
+
+footer{
+    
+}
