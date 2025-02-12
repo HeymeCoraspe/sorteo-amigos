@@ -1,10 +1,20 @@
 * {
     box-sizing: border-box;
 }
-body{
-    background-image: linear-gradient(to bottom, #5dadea, #99bef0, #c4d1f5, #e5e7fa, #ffffff);
-    background-attachment: fixed;
+html,main{
+    height: 100%;
+    margin: 0;
+    padding: 0;
 }
+body{
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    background-image: linear-gradient(to bottom, #5dadea, #99bef0, #c4d1f5, #e5e7fa, #ffffff);
+    background-repeat: no-repeat;
+    /**background-attachment: fixed;*/
+}
+
 header{
     text-align: center;
     margin-top: 5vh;
@@ -16,12 +26,11 @@ header{
     flex-direction: row-reverse;
 }
 
-.img-container{
-    width: 20%;
-}
 img{
     align-items: center;
     display: inline;
+    width: 350px;
+    height: auto;
 }
 
 .input-section-wrapped{
@@ -106,3 +115,6 @@ ul{
     display: contents;
     font-size: 20px;
 }
+ footer{
+    display:inherit ;
+ }

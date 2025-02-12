@@ -38,4 +38,4 @@ document.getElementById("input-bt-add").addEventListener("click", ()=>{
     updateList();
 });
 
-/**updateList added, addFriends modified */
+/** */
