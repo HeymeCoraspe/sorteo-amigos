@@ -1,13 +1,15 @@
-friendsList=[];
+/**import Swal from 'sweetalert2'*/
+
+let friendsList=[];
 
 function addFriends(){
     let friendName= document.getElementById("input-name").value.toLowerCase();
 
     if (friendName==""){
-        alert("Debes agregar un nombre");
+        Swal.fire("Error", "Debes agregar un nombre", "warning");
         } else{
             if (friendsList.includes(friendName)){
-                alert("Ya agregaste ese nombre");
+                Swal.fire("Error", "Nombre repetido", "error");;
             }else{
                 friendsList.push(friendName);
                 return friendName;
@@ -38,4 +40,4 @@ document.getElementById("input-bt-add").addEventListener("click", ()=>{
     updateList();
 });
 
-/** */
+/** updated footer, alert's style changed to sweetalert */
